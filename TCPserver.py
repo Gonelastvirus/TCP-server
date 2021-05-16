@@ -1,6 +1,6 @@
 import socket
 
-SERVER_HOST = "0.0.0.0"
+SERVER_HOST = ""
 SERVER_PORT = 5003
 # send 1024 (1kb) a time (as buffer size)
 BUFFER_SIZE = 1024 * 128 * 1024# 128KB max size of messages, feel free to increase
